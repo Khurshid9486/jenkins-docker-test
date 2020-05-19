@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'centos'
-            label 'generic'
+            any
         } //docker
     } //agent
     stages {
