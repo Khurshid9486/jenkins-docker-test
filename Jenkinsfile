@@ -3,7 +3,6 @@ pipeline {
         docker {
             image 'centos'
         } //docker
-    } //agent
     stages {
         stage("Check hostname of docker container") {
             steps {
@@ -13,4 +12,4 @@ pipeline {
             } //steps
         } //stage
     } //stages
-//pipeline
+}//pipeline
